@@ -58,6 +58,8 @@ public class AnuncioTest {
 		driver.findElement(By.linkText("Volver al tablón")).click();
 		
 		assertNotNull(driver.findElement(By.partialLinkText("Vendo moto verde")));
+
+		System.out.print("Anuncio creado");
 	}
 
 }
